@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+    <style>
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px auto 50px;
+        color: aliceblue;
+        font-weight: bold;
+        row-gap: 5px;
+    }
+    .grid .box1, .grid .box2, .grid .box3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid .box7, .grid .box8, .grid .box9{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .grid div{
+        background-color: rgb(61, 166, 166);
+    }
+    .grid .box4, .grid .box5, .grid .box6{
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+    }
+    .box1, .box2, .box3{
+        position: relative;
+    }
+    .box1 p,.box2 p, .box3 p{
+        position:absolute;
+        top:5px;
+    }
+    </style>
+</head>
+<body>
+    <a href="index.html">Bài 1</a> <a href="index1.html">Bài 2</a> <a href="index2.html">Bài 4</a> <a href="index3.html">Bài 5</a> <a href="index4.html">Bài 6</a> <a href="index5.html">Bài 7</a> <a href="index6.html">Bài 8</a> <a href="index7.html">Bài 9</a> <a href="index8.html">Bài 10</a>
+    <div class="grid">
+        <div class="box1">
+            <p>1</p>
+        </div>
+        <div class="box2">
+            <p>2</p>
+        </div>
+        <div class="box3">
+            <p>3</p></div>
+        <div class="box4">4</div>
+        <div class="box5">5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi a tenetur voluptatibus delectus culpa laudantium accusantium commodi tempore veritatis temporibus quis minus inventore debitis amet, doloremque distinctio sit non!</div>
+        <div class="box6">6</div>
+        <div class="box7">7</div>
+        <div class="box8">8</div>
+        <div class="box9">9</div>
+    </div>
+ 
+</body>
+</html>

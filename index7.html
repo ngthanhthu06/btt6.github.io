@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 9</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,60px);
+            row-gap: 5px;
+            column-gap: 8px;
+        }
+        .grid div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+        }
+        .head{
+            background-color: #e5bb60;
+            grid-column: 1/4;
+        }
+        .hero{
+            background-color: rgb(141, 185, 104);
+            grid-column: 1/4;
+        }
+        .dv1{
+            background-color: #afeeee;
+            grid-column: 1/2;
+            margin-left: 5px;
+        }
+        .dv2{
+            background-color: #afeeee;
+            grid-column: 2/3;
+        }
+        .dv3{
+            background-color: #afeeee;
+            grid-column: 3/4;
+            margin-right: 5px;
+        }
+        .footer{
+            background-color: #e5bb60;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Bài 1</a> <a href="index1.html">Bài 2</a> <a href="index2.html">Bài 4</a> <a href="index3.html">Bài 5</a> <a href="index4.html">Bài 6</a> <a href="index5.html">Bài 7</a> <a href="index6.html">Bài 8</a> <a href="index7.html">Bài 9</a> <a href="index8.html">Bài 10</a> 
+    <div class="grid">
+        <div class="head">Header</div>
+        <div class="hero">hero</div>
+        <div class="dv1 ">dịch vụ 1</div>
+        <div class="dv2 ">dịch vụ 2</div>
+        <div class="dv3 ">dịch vụ 3</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

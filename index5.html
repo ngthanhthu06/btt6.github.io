@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-rows: 60px 60px 60px;
+            row-gap: 4px;
+            grid-template-areas:
+            "header header  header header"
+            "side   content content content"   
+            "footer footer  footer footer" ;
+        }
+        .head{
+            background-color: rgb(104, 147, 221);
+            grid-area: header;
+        }
+        .side{
+            background-color: rgb(223, 149, 174);
+            grid-area: side;
+        }
+        .content{
+            background-color: rgb(183, 148, 215);
+            grid-area: content;
+        }
+        .footer{
+            background-color: rgb(152, 207, 130);
+            grid-area: footer;
+        }
+        .grid div{
+            color: antiquewhite;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Bài 1</a> <a href="index1.html">Bài 2</a> <a href="index2.html">Bài 4</a> <a href="index3.html">Bài 5</a> <a href="index4.html">Bài 6</a> <a href="index5.html">Bài 7</a> <a href="index6.html">Bài 8</a> <a href="index7.html">Bài 9</a> <a href="index8.html">Bài 10</a> 
+    <div class="grid">
+        <div class="head">Header</div>
+        <div class="side">side bar</div>
+        <div class="content">content</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

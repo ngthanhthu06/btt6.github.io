@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 80px 40px 40px 40px 40px;
+            color: aliceblue;
+            font-weight: bold;
+            row-gap: 3px;
+        }
+        .grid div{
+            background-color: rgb(100, 119, 202);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item1{
+            grid-column: 1/4;
+        }
+        .item5{
+            grid-column: 2/4;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Bài 1</a> <a href="index1.html">Bài 2</a> <a href="index2.html">Bài 4</a> <a href="index3.html">Bài 5</a> <a href="index4.html">Bài 6</a> <a href="index5.html">Bài 7</a> <a href="index6.html">Bài 8</a> <a href="index7.html">Bài 9</a> <a href="index8.html">Bài 10</a> 
+    <div class="grid">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+    </div>
+</body>
+</html>
